@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build --workspaces"
+  publish = "dist"
+
+[[redirects]]
+  from = "/caption/*"
+  to = "/hinglish-caption-pro/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/studio/*"
+  to = "/hinglish-studio-ai/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/artix/*"
+  to = "/artix-studio-ai/:splat"
+  status = 200
