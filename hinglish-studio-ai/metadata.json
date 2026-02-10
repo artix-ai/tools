@@ -1,0 +1,7 @@
+{
+  "name": "Hinglish Studio AI",
+  "description": "Professional AI voiceover tool specifically designed to handle Hinglish scripts with natural, human-style inflection and high-quality downloadable audio.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
