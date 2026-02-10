@@ -1,0 +1,8 @@
+
+{
+  "name": "ARTIX STUDIO AI",
+  "description": "Professional-grade AI image processing tool for high-precision background removal, smart cropping, and studio-quality editing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
