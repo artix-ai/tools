@@ -1,10 +1,14 @@
 [build]
   command = """
   cd hinglish-caption-pro && npm install && npm run build &&
+  mkdir -p ../site/caption && cp -r dist/* ../site/caption/ &&
   cd ../hinglish-studio-ai && npm install && npm run build &&
-  cd ../artix-studio-ai && npm install && npm run build
+  mkdir -p ../site/studio && cp -r dist/* ../site/studio/ &&
+  cd ../artix-studio-ai && npm install && npm run build &&
+  mkdir -p ../site/artix && cp -r dist/* ../site/artix/
   """
-  publish = "."
+  publish = "site"
+
 
 [[redirects]]
 from = "/caption/*"
