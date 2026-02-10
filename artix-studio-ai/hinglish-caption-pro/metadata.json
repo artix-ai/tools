@@ -1,8 +1,0 @@
-{
-  "name": "Hinglish Caption Pro",
-  "description": "An advanced AI-powered captioning tool designed specifically for Hinglish (Hindi + English) audio and video. Generates precise word-for-word SRT files with high temporal accuracy.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
